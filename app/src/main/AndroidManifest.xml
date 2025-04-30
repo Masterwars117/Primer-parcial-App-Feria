@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppFeria"
         tools:targetApi="31">
+
+        <!-- Actividad principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -19,15 +21,15 @@
             android:theme="@style/Theme.AppFeria">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name=".Activity2"
             android:exported="false"
             android:theme="@style/Theme.AppFeria" />
+        <activity android:name=".Activity1" android:exported="false" />
+
     </application>
 
 </manifest>
